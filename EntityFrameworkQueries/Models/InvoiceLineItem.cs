@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using EntityFrameworkQueries.Models;
+using EntityFrameworkQueries;
 
 namespace EntityFrameworkQueries;
 

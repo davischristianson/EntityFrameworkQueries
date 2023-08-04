@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using EntityFrameworkQueries.Models;
+using System.Diagnostics;
+using EntityFrameworkQueries;
 
 namespace EntityFrameworkQueries;
 
 public partial class Vendor
 {
+    [DebuggerDisplay("Name: {VendorName,nq} - {VendorState,nq}")]
     public int VendorId { get; set; }
 
     public string VendorName { get; set; } = null!;
